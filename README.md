@@ -9,6 +9,7 @@ A python script to have a computer play the game 2048 in a very mediocre way
 5. Go to https://play2048.co/
 6. Press OK after reading the popup box about ending the program
 7. Click on the 2048 browser window
+8. How could it be any easier?
 
 The creator of this program is not affiliaed with https://play2048.co/ in any way
 
