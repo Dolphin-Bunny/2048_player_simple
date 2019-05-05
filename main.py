@@ -1,6 +1,6 @@
 import pyautogui,time,random,sys
 
-can_go_up=pyautogui.prompt('\ncan computer press up? (t or f): ')
+can_go_up=pyautogui.prompt('\ncan computer press up? (t or f): \nPressing up decreases the final score, but allows the game to not get stuck.')
 if can_go_up=='t':
     can_go_up==True
 elif can_go_up=='f':
@@ -10,13 +10,7 @@ else:
 
 print('\n')
 
-'''i=0
-for i in range(7):# countdown to start
-    print('click into your 2048 tab in {}'.format(7-i)+' seconds')
-    time.sleep(1)
-    i=i+1'''
-
-pyautogui.alert('PLEASE NOTE:\n- press ctrl+c in the console/terminal/cmd window to end program\n- this program may do unwanted things on other websites or in other programs\n- program will not start playing until ok is pressed\n\npress ok and click into your 2048 tab after reading this message')
+pyautogui.alert('PLEASE NOTE:\n- press ctrl+c in the console/terminal/cmd window to end program\n- this program may do unwanted things on other websites or in other programs\n- program will not start playing until OK is pressed\n\npress ok and click into your 2048 tab after reading this message')
 
 print('\npress ctrl+c in this window to quit program')
 
