@@ -1,7 +1,7 @@
 # 2048_player_simple
 A python script to have a computer play the game 2048 in a very mediocre way
 
-# Instructions for use:
+# Instructions Ror Use:
 1. Run main.py with python 3.x
 2. Choose whether the program should be allowed to press the up-arrow key, making it lose easier, or nt (plays longer, but it can get stuck sometimes)
 3. Enter your choice (t or f) in the box that appears
